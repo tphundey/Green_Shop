@@ -1,0 +1,21 @@
+.full {
+	position: relative;
+	box-shadow: 5px 10px black;
+}
+
+.hidden {
+	background-color: #007F1F;
+	color: white;
+	border-radius: 50px;
+	border-bottom-right-radius: 130px;
+	border-top-right-radius: 130px;
+	padding: 1px 15px;
+	opacity: 0.0;
+	transition: 1s;
+}
+
+.hv:hover .hidden {
+	opacity: 1.1;
+
+	position: relative;
+}

@@ -1,0 +1,37 @@
+.formloai {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+
+
+/* .formloai th:nth-child(2) {
+    width: 30%;
+    background-color: #ccc;
+}
+
+.formloai th:nth-child(3) {
+    width: 40%;
+    background-color: #ccc;
+}
+
+.formloai th:nth-child(4) {
+    width: 20%;
+    background-color: #ccc;
+} */
+
+.formloai td {
+    padding: 5px 10px;
+    border: 1px #ccc solid;
+}
+
+.formloai {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.m-10 {
+    margin-bottom: 10px;
+}

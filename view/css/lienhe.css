@@ -1,0 +1,519 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.relative {
+    position: relative;
+}
+
+.fixed {
+    position: fixed;
+    background-color: white;
+    padding: 5px;
+    padding-right: 30%;
+}
+
+.hd {
+    display: flex;
+    width: 1200px;
+    background-color: white;
+    padding-left: 19%;
+    padding-right: 6%;
+    border: 3px solid #BED747;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+.fl{
+    display: flex;
+}
+
+.h-left {
+    display: flex;
+    width: 70%;
+    align-items: center;
+}
+
+.h-left ul li {
+    display: inline-block;
+
+}
+
+.h-left ul li a {
+    color: #003C2D;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.h-right {
+    width: 30%;
+    display: flex;
+    float: right;
+    align-items: center;
+}
+
+.h-right ul li {
+    display: inline-block;
+}
+
+.h-right ul li a {
+    color: #003C2D;
+    font-size: 25px;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.nav1 {
+    padding-top: 7%;
+}
+
+/*end header */
+
+/* nav thong tin */
+.thongtin {
+    display: flex;
+    gap: 170px;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.tt1 {
+    display: grid;
+    justify-items: center;
+}
+
+.tt1 b {
+    margin-top: 20px;
+}
+
+.tt1:hover img {
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+.tt1 img {
+    transition: 2s;
+}
+
+/*end nav thong tin */
+
+
+
+.title1 {
+    text-align: center;
+    color: white;
+    background-color: #BED747;
+    margin-top: 5%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.title1 b {
+    font-size: 20px;
+    color: #003C2D;
+}
+
+.fl-3 .lsp {
+    display: flex;
+    margin-top: 5%;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+.lsp img {
+    border-radius: 30px;
+    width: 450px;
+    height: 300px;
+    background-image: url('https://bizweb.dktcdn.net/100/426/356/themes/819865/assets/banner_1.jpg?1632913512906');
+}
+
+/* backtotop */
+
+.back-to-top {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    border-radius: 100%;
+    background: #141c38;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    opacity: 100%;
+    transition: opacity 0.5s;
+}
+
+.back-to-top:hover {
+    opacity: 60%;
+}
+
+.hidden {
+    opacity: 0%;
+}
+
+.back-to-top-icon {
+    width: 1rem;
+    height: 1rem;
+    color: #7ac9f9;
+}
+
+.progress-bar {
+    height: 1rem;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/*end backtotop */
+
+
+/* sanpham */
+
+.gr-5 {
+    margin-top: 2%;
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.anhsp {
+    border: 1px solid #BED747;
+    border-radius: 15px;
+}
+
+.anhsp img {
+    width: 279px;
+    height: 208px;
+    border-radius: 15px;
+}
+
+.product {
+    display: grid;
+    justify-items: center;
+}
+
+.product p,
+b,
+a {
+    color: #003C2D;
+    text-decoration: none;
+}
+
+.product strong {
+    color: #003C2D;
+    font-weight: 900;
+}
+
+/* end sanpham */
+
+
+
+/* feedback */
+.fb {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    column-gap: 20px;
+}
+
+.fb1 {
+    display: flex;
+    column-gap: 20px;
+    width: 35%;
+}
+
+.fb1 img {
+    width: 120px;
+    margin-top: 10%;
+    border-radius: 100px;
+}
+
+
+
+/*end feedback */
+
+
+
+/* footer */
+
+.footer {
+    display: grid;
+    width: 1200px;
+    justify-content: center;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+footer {
+    background-color: #BED747;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.ft b {
+    margin-left: 10%;
+}
+
+.ft ul {
+    margin-top: 10%;
+}
+
+.ft ul li {
+    list-style-type: none;
+    margin-bottom: 4%;
+}
+
+.ft ul li a {
+    color: black;
+}
+
+.ft2 {
+    width: 100%;
+    height: 100px;
+    background-image: url("https://vinafruit.com.vn/wp-content/uploads/2018/09/banner_list12.jpg");
+}
+
+span {
+    font-size: 15px;
+}
+
+.text-1 {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 4px;
+}
+
+.text-1 span {
+    color: black;
+    font-weight: 900;
+}
+
+/*end footer */
+
+.bnsrc {
+    width: 100%;
+    margin-top: 5%;
+    height: 250px;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-healthy-food-health-product-promotion-banner-image_166660.jpg");
+}
+
+.ftpd {
+    margin-top: 10%;
+}
+
+/* bat dau lien he*/
+.deft {
+    height: 150px;
+}
+
+.cont {
+    width: 73%;
+    height: 500px;
+    margin-left: 13%;
+}
+
+.cont-l {
+    width: 40%;
+    height: 100%;
+
+    float: left;
+}
+
+.cont-l img {
+    width: 350px;
+    height: 300px;
+}
+
+.cont-r {
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+.canhotro .tieude {
+    margin-left: 30px;
+}
+
+.cont-r label {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.hhh {
+    height: 05px;
+}
+
+.inp1 {
+    margin-left: 60px;
+    width: 450px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #F4F8FB;
+}
+
+.inp2 {
+    margin-left: 35px;
+    width: 450px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #F4F8FB;
+}
+
+.sub {
+    margin-left: 325px;
+    margin-top: 30px;
+    width: 100px;
+    height: 50px;
+    font-size: 19px;
+    background-color: white;
+    color: #607280;
+    border-radius: 20px;
+    border-color: #607280;
+}
+
+.sub:hover {
+    background-color: #BED747;
+    color: white;
+}
+
+.sub:active {
+    background-color: black;
+    color: white;
+}
+
+.lienhe {
+    margin-left: 170px;
+}
+
+
+
+iframe {
+    width: 100%;
+    height: 500px;
+}
+
+
+
+
+
+/*end lien he */
+
+/* start thanh toan*/
+
+.dc {
+    width: 70%;
+    height: 100px;
+    margin-left: 16%;
+}
+
+.macdinh {
+    margin-left: 20px;
+    border: 1px solid red;
+    background-color: white;
+    color: red;
+}
+
+.dc h3 a {
+    color: #4080EE;
+    margin-left: 20px;
+}
+
+.sanpham {
+    width: 70%;
+    height: 150px;
+    margin-left: 16%;
+}
+
+.sanpham img {
+    float: left;
+    margin-left: 30px;
+}
+
+.td1 p {
+    margin-left: 50px;
+}
+
+.td1 {
+    width: 700px;
+    height: 50px;
+    float: left;
+}
+
+.td234 {
+    width: 100px;
+    height: 70px;
+}
+
+.loinhan {
+    width: 70%;
+    height: 70px;
+    margin-left: 16%;
+    margin-top: 10px;
+
+}
+
+.thanhtoan {
+    width: 73%;
+    height: 300px;
+    margin-left: 16%;
+}
+
+.phuongthuc {
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+.tratien {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.button-dathang {
+    width: 200px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F3836B;
+    color: white;
+}
+
+.button-dathang:hover {
+    background-color: #607280;
+}
+
+.tit td {
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.tit {
+    background-color: #003C2D;
+    border-radius: 20px;
+}
+
+
+
+/* end thanh toan*/
